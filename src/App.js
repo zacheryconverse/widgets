@@ -43,6 +43,7 @@ const App = () => {
         onSelectedChange={setSelected}
         options={options}
       />
+      <span style={{color: selected.value, padding: '10px'}}>This text is {selected.value}!</span>
     </div>
   );
 };
