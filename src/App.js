@@ -35,16 +35,9 @@ const options = [
 ];
 
 const App = () => {
-  const [selected, setSelected] = useState(options[0]);
 
   return (
     <div>
-      <Dropdown
-        selected={selected}
-        onSelectedChange={setSelected}
-        options={options}
-      />
-      <h1 style={{color: selected.value, padding: '10px'}}>This text is {selected.value}!</h1>
       <Translate />
     </div>
   );
