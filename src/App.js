@@ -13,11 +13,11 @@ const items = [
   },
   {
     title: "Why use React?",
-    content: "It is a favorite among developers. Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.",
+    content: "It is a favorite among developers. Build encapsulated components that manage their own state, then compose them to make complex UIs.",
   },
   {
-    title: "How do you use React?",
-    content: "By creating components.",
+    title: "How to use React?",
+    content: "By creating components. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.",
   },
 ];
 
